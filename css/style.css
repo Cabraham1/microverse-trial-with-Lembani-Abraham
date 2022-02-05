@@ -36,6 +36,25 @@ body {
     width: 100%;
 }
 
+input,
+button {
+    padding: 4px 4px;
+    border: 1px solid #aaa;
+    border-radius: 4px 4px;
+    width: 20%;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: rgb(248, 193, 12);
+    width: 10%;
+}
+
+button:hover {
+    background: rgb(218, 161, 5);
+}
+
 .form-section {
     position: relative;
     margin: 0 auto;
@@ -44,9 +63,22 @@ body {
     text-align: center;
 }
 
+.feature-list {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.feature-item {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+}
+
 .pricing {
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,6 +101,15 @@ body {
     width: 350px;
     text-align: center;
     border: 1px solid #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.video {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid #333;
     margin-top: 15px;
     margin-bottom: 15px;
 }
